@@ -1,9 +1,9 @@
 <?php
 // Підключення до бази даних
 $servername = "localhost";
-$username_db = "Roman"; // Встановіть своє ім'я користувача
-$password_db = "1111"; // Встановіть свій пароль
-$dbname = "business_card"; // Встановіть свою базу даних
+$username_db = "Roman"; 
+$password_db = "1111"; 
+$dbname = "business_card"; 
 
 // Перевірка відправлення POST-запиту
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
         <p>Don't have an account yet? <a href="register.php">Register here</a>.</p>
     </div>
-      <!-- Футер -->
+     
       <footer>
         <p>WEB2324</p>
     </footer>
