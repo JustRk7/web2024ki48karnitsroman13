@@ -29,10 +29,10 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 14px 16px; /* Застосуйте розмір країв як у вашому меню */
+    padding: 14px 16px; 
     position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 999; /* Щоб футер був поверх усього контенту */
+    z-index: 999; 
 }
 
