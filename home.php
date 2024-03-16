@@ -121,11 +121,10 @@
                 } else if (grade100 >= 88 && grade100 <= 100) {
                     grade1to5Input.value = '5';
                 } else {
-                    grade1to5Input.value = ''; // Очистити поле, якщо введена оцінка виходить за межі діапазону
+                    grade1to5Input.value = ''; 
                 }
             } else {
-                grade1to5Input.value = ''; // Очистити поле, якщо введено нечислове значення
-            }
+                grade1to5Input.value = ''; 
         }
     </script>
     <!-- Футер -->
