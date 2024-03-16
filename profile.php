@@ -3,9 +3,9 @@ session_start();
 
 // Підключення до бази даних
 $servername = "localhost";
-$username_db = "Roman"; // Встановіть своє ім'я користувача
-$password_db = "1111"; // Встановіть свій пароль
-$dbname = "business_card"; // Встановіть свою базу даних
+$username_db = "Roman"; 
+$password_db = "1111"; 
+$dbname = "business_card"; 
 
 // Змінні для зберігання значень полів
 $lastname = "";
@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <button type="submit" class="logout-button">Log out</button>
         </form>
     </div>
-    <!-- Футер -->
+   
     <footer>
         <p>WEB2324</p>
     </footer>
