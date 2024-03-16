@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; 
+}
+
+.menu li {
+    display: inline-block; 
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /* Застосуйте розмір країв як у вашому меню */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999; /* Щоб футер був поверх усього контенту */
+}
+

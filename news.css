@@ -1,0 +1,47 @@
+
+.news_main {
+    text-align: center; /* Відцентрувати заголовок та фото */
+}
+
+.news_image {
+    width: 300x;
+    height: 300px;
+    border-radius: 100%; /* Заокруглення кутиків */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
+}
+.news {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; 
+}
+
+.news li {
+    display: inline-block; 
+}
+
+.news li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%; /* Встановлюємо ширину на всю ширину батьківського елемента */
+}
+
+.news li a:hover {
+    background-color: #c9c9c9;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /* Застосуйте розмір країв як у вашому меню */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999; /* Щоб футер був поверх усього контенту */
+}
+
